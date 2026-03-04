@@ -267,7 +267,7 @@ export default function Page() {
   }
 
   // 관독 상태
-  const [shRegion,  setShRegion]  = useState("송도");
+  const [shRegion,  setShRegion]  = useState("세종");
   const [shGrade,   setShGrade]   = useState<StudyHallGrade>("high2");
   const [shSeason,  setShSeason]  = useState<StudyHallSeason>(autoSHSeason());
   const [shGoal,    setShGoal]    = useState<StudyHallGoal>("naesin");
@@ -336,9 +336,9 @@ export default function Page() {
         {/* 헤더 */}
         <header className="mb-6 flex items-start justify-between">
           <div>
-            <h1 className="text-2xl font-bold">관독 4.0</h1>
+            <h1 className="text-2xl font-bold">관리형독서실 4.0</h1>
             <p className="text-neutral-400 mt-1 text-sm">
-              관리형독서실 네이버 블로그 콘텐츠 생성기
+              4.0 전용 블로그 포스팅 제작
             </p>
           </div>
           <button
